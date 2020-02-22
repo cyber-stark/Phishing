@@ -1,5 +1,5 @@
 # Phishing
-Instagram Phishing  
+Instagram and Google Phishing Page 
 Completely offline page  
 Logs IP + User Agent + Time + ID + Password
 
