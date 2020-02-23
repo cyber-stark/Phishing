@@ -6,7 +6,7 @@ Pinterest
 Yahoo  
 Paypal  
 Wordpress  
-Github 
+Github  
 Netflix  
 
 *All Pages works Offline*  
