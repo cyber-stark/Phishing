@@ -1,12 +1,12 @@
 # Phishing
-Instagram
-Google
-Facebook
-Pinterest
-Yahoo
-Paypal
-Wordpress
-Github
+Instagram  
+Google  
+Facebook  
+Pinterest  
+Yahoo  
+Paypal  
+Wordpress  
+Github  
 
 *All Pages works Offline*  
 *Logs IP + User Agent + Time (IST) + ID + Password*
