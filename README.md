@@ -2,7 +2,6 @@
 Instagram  
 Google  
 Facebook  
-Pinterest  
 Yahoo  
 Paypal  
 Wordpress  
